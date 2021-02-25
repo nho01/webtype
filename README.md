@@ -10,7 +10,7 @@
   <section id="container">
 
     <!-- about me-->
-    <h1> Hi I am Natalya</h1>  
+    <h1> Hi I am Natalya Ho </h1>  
     <p class="desc">about you...</p>
     
     <!-- links to my work -->
@@ -30,4 +30,5 @@
 
   </section>
 </body>
-</html>
+</html
+
