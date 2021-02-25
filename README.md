@@ -10,7 +10,7 @@
   <section id="container">
 
     <!-- about me-->
-    <h1>Natalya</h1>  
+    <h1> Hi I am Natalya</h1>  
     <p class="desc">about you...</p>
     
     <!-- links to my work -->
