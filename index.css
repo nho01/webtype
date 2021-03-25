@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 10%;
+  background-color: #0A4151;
+  color: white;
+  font-family: rajdhani;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+
+.header h1 {
+	font-size: 80px;
+}
+
+
+.header h2 {
+	font-size:50px;
+}
+
+
+.projects p {
+	color: #FF008B;
+	font-size: 30px;
+}
+
+.links a:visited{
+  color: #FF008B;
+}
+
+.links a:hover {
+  color: #C1FF00 ;
+  
+}
+
+.links a:link {
+	color:#FF008B;
+}

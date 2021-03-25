@@ -1,0 +1,289 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 80px;
+  line-height: 8px;
+  text-align: center;
+  letter-spacing: 30px;
+  padding-top: 2%;
+}
+
+.topnav {
+  overflow: hidden;
+  position:center;
+  text-align: center;
+}
+
+.topnav a {
+font-family: 'Rajdhani';
+font-size: 18px;
+line-height: px;
+color:white;
+padding-left: 40px;
+padding-right:40px;
+padding-top: 25px;
+letter-spacing: 1px;
+
+}
+
+.topnav a:hover {
+  color: red ;
+}
+
+img {
+  width: 100%;
+}
+
+.hometext {
+	font-family: 'Rajdhani';
+font-size: 25px;
+line-height: 38px;
+color:white;
+letter-spacing: 4px;
+margin-right: 32%;
+padding-left: 5%;
+padding-top: 100px;
+padding-bottom: 5%;
+}
+
+
+.hometext a:hover {
+  color: grey;
+}
+
+
+.header h2 {
+font-family: 'Rajdhani';
+font-size: 34px;
+line-height: 38px;
+color:white;
+letter-spacing: 4px;
+margin-top: 60px;
+  padding-left: 10%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 20%;
+  margin-left:100px;
+  margin-right: 100px;
+
+}
+
+
+.header h3 {
+font-family: 'Rajdhani';
+font-size: 16px;
+font-weight: lighter;
+line-height: 24px;
+margin-top: 68px;
+margin-bottom: 30px;
+}
+
+
+.movieinfo p {
+font-family: 'Rajdhani';
+font-size: 20px;
+font-weight: lighter;
+line-height: 40px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+
+.invisibleman h4 {
+font-family: 'Rajdhani';
+font-size: 70px;
+font-weight: 900;
+text-align: center;
+line-height: 25px;
+letter-spacing: 48px;
+color: #40D1FF;
+padding-top: 3%;
+}
+
+.invisiblesummary p{
+  font-family: 'Rajdhani';
+font-size: 23px;
+transform: scale(1,1.05);
+line-height: 160px;
+color:white;
+letter-spacing: 20px;
+padding-left: 11%;
+margin-right: 22%;
+}
+
+
+.quote p {
+font-family: 'Rajdhani';
+font-size: 38px;
+line-height: 45px;
+padding-top: 200px;
+margin-left: 50%;
+margin-right: 2%
+}
+
+.reserve {
+  font-family: 'Rajdhani';
+font-size: 120px;
+font-weight: bolder;
+line-height: 45px;
+transform: rotate(-90deg);
+color: grey;
+padding-bottom: 250px;
+padding-top: 17%;
+}
+
+
+.grace {
+font-family: 'Rajdhani';
+font-size: 70px;
+font-weight: 900;
+text-align: center;
+letter-spacing: 48px;
+color: #FF0000;
+
+}
+
+.gracesummary {
+	position: absolute;
+	left:240px; top:700px;
+font-family: 'Rajdhani';
+font-size: 23px;
+font-weight: lighter;
+transform: scale(1,1.05);
+line-height: 185px;
+color:white;
+letter-spacing: 20px;
+padding-left: 4%;
+padding-right: 35%;
+}
+
+.zodiacsummary {
+font-family: 'Rajdhani';
+font-size: 25px;
+font-weight: lighter;
+transform: scale(1,1.05);
+line-height: 52px;
+color:white;
+text-align: justify;
+letter-spacing: 42px;
+padding-left: 12%;
+padding-right: 12%;
+padding-top: 2%;
+
+}
+
+
+.perfection h5{
+font-family: 'Rajdhani';
+font-size: 200px;
+font-weight: 900;
+text-align: left;
+line-height: 204px;
+letter-spacing:240px;
+color: #FF1F00;
+padding-left: 105px;
+margin-top: 133px;
+margin-bottom: 10px;
+
+}
+
+.perfectionsummary{
+font-family: 'Rajdhani';
+font-size: 30px;
+font-weight: lighter;
+transform: scale(1,1.05);
+line-height: 50px;
+color:white;
+text-align: justify;
+letter-spacing: 0px;
+padding-left: 9.5%;
+padding-right: 65%;
+margin-top: 0px;
+margin-bottom:100px;
+}
+
+.perfectionquote{
+font-family: 'Rajdhani';
+font-size: 30px;
+font-weight: lighter;
+transform: scale(1,1.05);
+line-height: 50px;
+color:white;
+text-align: justify;
+letter-spacing: 0px;
+padding-left: 57%;
+padding-right: 12%;
+}
+
+.content_wrapper {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+}
+.image_container {
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 640px;
+}
+.image_container:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.image_container:before {
+  content: '';
+  position: absolute;
+  width: 13%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.invisibleman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.zodiac h4 {
+font-family: 'Rajdhani';
+font-size: 70px;
+font-weight: 900;
+text-align: center;
+line-height: 25px;
+letter-spacing: 48px;
+color: #FFB800;
+padding-top: 3%;
+}
+
+
+
+
+
