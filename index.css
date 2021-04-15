@@ -1,17 +1,56 @@
 body {
-  background-color: black;
-  color: white;
-  margin: 10%;
-  background-color: #0A4151;
-  color: white;
-  font-family: rajdhani;
-  letter-spacing: 2px;
-  font-size: 30px;
+  background-color: #165EFF;
+  font-family: Yatra One;
+  color: #FF7B73;
+  font-size: 50px;
 }
 
 
+.rectangle {
+  height: 362px;
+  width: 861px;
+  border: 6px solid #FF7B73; 
+  margin: 0 auto;
+position: absolute;
+left: 405px;
+  top: 170px;
+opacity: 100%;}
+
+
 .header h1 {
-	font-size: 80px;
+	font-size: 280px;
+	text-align: center;
+	color: #FF7B73;
+	position: absolute;
+margin-top: 9%;
+margin-left: 20.5%
+
+}
+
+
+.column {
+	font-size: 20px;
+padding-right: 4%;
+padding-top: 35%;
+  float: left;
+  width: 12%;
+  left: 250px;
+position: relative;
+left: 21%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.line {
+position: absolute; top: 63.5%;
+  height: 60px;
+  width: 0px;
+  border: 3px solid #FF7B73; 
 }
 
 
@@ -26,14 +65,51 @@ body {
 }
 
 .links a:visited{
-  color: #FF008B;
+  color: #FF7B73;
+  text-decoration: none;
 }
 
 .links a:hover {
-  color: #C1FF00 ;
-  
+  color: rgba(0, 255, 209, 1);
+  text-decoration: none;
 }
 
 .links a:link {
-	color:#FF008B;
+	color: #FF7B73;
+	text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////
+<div id="exercises">
+      <div class="header">
+      <h2>Exercises</h2> </div>
+      <ul>
+        <li><a href="index.html">EX 1</a></li>
+        <li style="color: #FF008B;">EX 2</a></li>
+      </ul> 
+    </div> 
+
+   
+    <div id="projects">
+      <div class="head">
+      <h2>Projects</h2> </div>
+      
+      <ul>
+        <li><a href="bolthouse/index.html">Community Archive</a></li>
+      </ul>
+    </div>
