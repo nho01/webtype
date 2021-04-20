@@ -1,0 +1,232 @@
+@font-face {
+  font-family: Dilate;
+  src: url(Dilate-Dilate.ttf);
+}
+
+
+:root{
+	--wght: 400;
+	--color: black;
+}
+
+body {
+ 		font-family: Dilate;
+		color: black;
+		font-size: 22px;
+		line-height: 40px;
+    	background-color: #42424f;
+    	color:  var(--color);
+}
+
+ .dilate {
+ 	font-variation-settings: 'wght' var(--wght);
+ }
+
+
+.midwall {
+	width: 80vw;
+	height: 100vh;
+	background: #8c89a0;
+	margin: auto;
+	position: absolute;
+	top: 0px; left: 10vw;
+}
+
+.centerwall {
+	width: 50vw;
+	height: 100vh;
+	background: #a6a2c2;
+	margin: auto;
+	position: absolute;
+	top: 0px; left: 25vw;
+}
+
+.shelf {
+	width: 45vw;
+	height: 45vh;
+	position: absolute;
+	margin-left: 27.5vw;
+	margin-right: 27.5vw;
+	margin-top: 11Vh;
+	margin-bottom: 29vh;
+}
+
+.shelf p {
+	font-size: 95px;
+	letter-spacing: 10px;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+
+.eye{
+	pointer-events: none;
+}
+
+.eye img {
+	margin: auto;
+    width: 100vw;
+    height: 100vh;
+    /* height: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 100%;
+    pointer-events: none;
+}
+
+.bulb img {
+	margin: auto;
+    width: 4vw;
+    /* height: 100%; */
+    position: fixed;
+    top: 0.5vh;
+    left: 48vw;
+    opacity: 100%;
+}
+
+
+.blacklayer {
+	height: 100vh;
+ 	width: 100vw;
+ 	background-color: black;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	opacity: 50%;
+ 	pointer-events: none;
+ }
+
+.rectangle {
+  height: 10px;
+  width: 45vw;
+  background-color: #555;
+  position: absolute;
+  margin-bottom: 30vh;
+ }
+
+/*.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}*/
+
+section{
+	margin: 3rem 0;
+}
+
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 800;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	position: absolute;
+	right: 9vw;
+	bottom: 45vh;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+	transform: rotate(90deg);
+}
+
+.range-name, .min, .max{
+	transform: rotate(-90deg);
+	text-align: center;
+}
+.min{
+	text-align: center;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 12vw;
+	margin: 0 20px;
+}
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: coral;
+  border-radius: 1.3px;
+  border: 0.1px solid black;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: coral;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  height: 35px;
+  width: 10px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -13px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
