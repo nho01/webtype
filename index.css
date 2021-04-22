@@ -30,10 +30,10 @@ margin-left: 20.5%
 
 .column {
 	font-size: 20px;
-padding-right: 4%;
+padding-right: 3%;
 padding-top: 35%;
   float: left;
-  width: 12%;
+  width: 21vw;
   left: 250px;
 position: relative;
 left: 21%;
@@ -70,7 +70,7 @@ position: absolute; top: 63.5%;
 }
 
 .links a:hover {
-  color: rgba(0, 255, 209, 1);
+  color: greenyellow ;
   text-decoration: none;
 }
 
