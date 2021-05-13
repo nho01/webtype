@@ -2,41 +2,32 @@ body {
   background-color: #165EFF;
   font-family: Yatra One;
   color: #FF7B73;
-  font-size: 50px;
 }
 
 
-.rectangle {
-  height: 362px;
-  width: 861px;
+.rectangle h1{
+  height: 40vh;
+  width: 60vw;
   border: 6px solid #FF7B73; 
   margin: 0 auto;
 position: absolute;
-left: 405px;
-  top: 170px;
-opacity: 100%;}
-
-
-.header h1 {
-	font-size: 280px;
-	text-align: center;
-	color: #FF7B73;
-	position: absolute;
-margin-top: 9%;
-margin-left: 20.5%
-
+left: 20vw;
+top: 30vh;
+font-size: 26vh;
+text-align: center; 
 }
 
 
 .column {
-	font-size: 20px;
+	font-size: 2vw;
 padding-right: 3%;
-padding-top: 35%;
+padding-top: 7vh;
   float: left;
   width: 21vw;
   left: 250px;
 position: relative;
 left: 21%;
+top: 70vh;
 }
 
 
@@ -47,15 +38,15 @@ left: 21%;
 }
 
 .line {
-position: absolute; top: 63.5%;
-  height: 60px;
+position: absolute; top: 0%;
+  height: 5.5vh;
   width: 0px;
   border: 3px solid #FF7B73; 
 }
 
 
-.header h2 {
-	font-size:50px;
+.header {
+	font-size: 50px;
 }
 
 
