@@ -344,7 +344,7 @@ animation-play-state: running !important;
 
 @keyframes move {
 	0% {transform: translateY(0px);}
-	100% {transform: translateY(-1650vh);}
+	100% {transform: translateY(-1620vh);}
 }
 
 .hinttext {
