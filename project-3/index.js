@@ -80,7 +80,6 @@ $(document).ready(function(){
 		    	reveal = true;
 		    	setTimeout(function(){ animateDiv(); }, 1000);
 		    }
-
 		  });
 		});
 

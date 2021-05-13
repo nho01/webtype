@@ -72,12 +72,12 @@ a:visited {
 
 .text{ 
   color: grey;
-  font-size: 95px;
-  line-height: 70px;
+  font-size: 11vh;
+  line-height: 8vh;
   letter-spacing: 5px;
   font-variation-settings: 'wght' 800;
   width: 105vw;
-  height: 105vh;
+  height: 110vh;
   word-break: break-all;
   overflow-y: hidden;
   background-color: black;
@@ -95,7 +95,7 @@ a:visited {
 .answer1 {
 	background-color: black;
 	width: 105vw;
-	height:105vh;
+	height:110vh;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -112,7 +112,7 @@ a:visited {
 }
 
 .showanswer1{
-	animation: fadein 4s 1s forwards;
+	animation: fadein 3s 0s forwards;
 	opacity: 0%;
 }
 
@@ -277,7 +277,7 @@ a:visited {
 
 .hide3 {
   opacity: 0;
-    transition: 2s 0s;
+  transition-delay: 2s;
   pointer-events: none;
 }
 
