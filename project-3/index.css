@@ -314,9 +314,10 @@ animation-play-state: running !important;
 
 .text5 {
   color: thistle;
-  font-size: 75px;
+  font-size: 4.5vw;
   line-height: 52px;
   letter-spacing: -5px;
+  height: 1750vh;
   font-variation-settings: 'wght' 400;
   width: 103vw;
   word-break: break-all;
@@ -324,7 +325,7 @@ animation-play-state: running !important;
 }
 
 .questions5{
-	color: thistle;
+	color: pink;
 	display: inline;
 }
 
@@ -343,17 +344,8 @@ animation-play-state: running !important;
 
 @keyframes move {
 	0% {transform: translateY(0px);}
-	100% {transform: translateY(-1715vh);}
+	100% {transform: translateY(-1650vh);}
 }
-
-.tomorrow p{ 
-  color: darkcyan;
-  margin-top:50%;
-  font-size: 20vh;
-  line-height: 52px;
-  letter-spacing: -5px;
-  font-variation-settings: 'wght' 400;
- }
 
 .hinttext {
   background: white;
